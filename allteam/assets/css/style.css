@@ -28,10 +28,11 @@
     width: 100%;
     height: 100vh;
     background-color: #dadaef;
-    background-image:url('../../assets/img/bg2.webp');
+    background-image:url('../../assets/img/bg.webp');
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center; 
+    object-fit: fill;
 }
 
 .hero-text
@@ -39,10 +40,8 @@
     color: #fff;
     position: absolute;
     top: 40%;
-    left: 12%;  
+    left: 8%;  
 }
-
-
 .logo
 {
 padding: 20px 28px;
@@ -63,7 +62,7 @@ padding: 20px 28px;
     width: 100%;
     height: 20px;
 }
-@media (max-width:500px)
+@media (max-width:600px)
 {
     .logo img
 {
@@ -78,28 +77,18 @@ padding: 20px 28px;
 .hero-text h4
 {
     color: #222121;
-    letter-spacing: 6px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 .hero-text h1
 {
-    /* font-family: 'Tilt Warp', cursive; */
     font-family: 'Saira Stencil One', cursive;
-    /* font-family: 'Tilt Warp', cursive; */
-
-    /* font-family: 'Kanit', sans-serif; */
     letter-spacing: 10px;
     font-size: 11vw;
     color: #222121;
-    /* text-shadow: 3px 3px 8px rgba(9,1,1,1); */
 }
-    /* -webkit-text-stroke: 1px #000;
-    background-image: url(https://img.freepik.com/free-vector/blank-purple-patterned-background-vector_53876-63148.jpg?size=626&ext=jpg); */
-    /* background-size: cover;
-    background-position: center;
-   -webkit-background-clip: text;
-   background-position: 0 0;
-   animation:back 40s infinite;
-} */
 @keyframes back
 {
     100%{
@@ -107,6 +96,7 @@ padding: 20px 28px;
     }
   
 }
+
 @media (max-width:850px)
 {
     .hero
@@ -115,13 +105,14 @@ padding: 20px 28px;
     }
     .hero-text
 {
-    top: 47%;
+    top: 42%;
     left: 5%;  
 }
 .hero-text h4
 {
-    letter-spacing: 5px;
-    font-size: 4vw;
+    letter-spacing: 2px;
+    font-size: 1.3vw;
+    padding-left: 10px;
 }
     .hero-text h1
     {
@@ -135,12 +126,12 @@ padding: 20px 28px;
 {
     .hero-text h1
     {
-    font-size: 10vw;
+    font-size: 9vw;
     }
     .hero-text h4
 {
     letter-spacing: 3px;
-    font-size: 4vw;
+    font-size: 2vw;
 }
 }
 @media (max-width:500px)
@@ -151,8 +142,24 @@ padding: 20px 28px;
     }
     .hero-text h4
 {
-    letter-spacing: 3px;
-    font-size: 5vw;
+    letter-spacing: 2px;
+    font-size: 2vw;
+}
+}
+@media (max-width:350px)
+{
+    .hero-text
+    {
+        top: 43%;
+    }
+    .hero-text h1
+    {
+    font-size: 9vw;
+    }
+    .hero-text h4
+{
+    letter-spacing: 2px;
+    font-size: 2vw;
 }
 }
 
@@ -163,6 +170,7 @@ padding: 20px 28px;
     justify-content: center;
     align-items: center;
     background-image:url('../../assets/img/uuuoo.webp');
+    background-attachment: fixed;
     background-size: cover;
     margin:0 0 50px 0;
     background-position: center;
@@ -170,7 +178,6 @@ padding: 20px 28px;
     min-height: 70vh;
     /* position: fixed; */
   }
-  
   .book-text {
     background-color: rgba(11, 10, 10, 0.2);
     width: 100%;
@@ -430,12 +437,12 @@ a span:nth-child(4) {
     display: inline-block;
     position: relative;
     z-index: 1;
-    max-width: 500px;
+    max-width: 400px;
     height: 500px;
     margin: 0 20px 20px 20px;
     box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .12);
     overflow: hidden;
-    width: 30.333%;
+    width: 29.333%;
 }
 
 @media (max-width:900px)
