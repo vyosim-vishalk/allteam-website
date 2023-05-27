@@ -27,22 +27,38 @@
     width: 100%;
     height: 100vh;
     background-color: #dadaef;
+<<<<<<< HEAD
     background-image: url('../../assets/img/v12.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+=======
+    background-image:url('../../assets/img/bg.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center; 
+    object-fit: fill;
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 .hero-text {
     color: #fff;
     position: absolute;
     top: 40%;
+<<<<<<< HEAD
     left: 12%;
 }
 
 
 .logo {
     padding: 20px 28px;
+=======
+    left: 8%;  
+}
+.logo
+{
+padding: 20px 28px;
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 @media (max-width:500px) {
@@ -59,11 +75,19 @@
     width: 100%;
     height: 20px;
 }
+<<<<<<< HEAD
 
 @media (max-width:500px) {
     .logo img {
         height: 15px;
     }
+=======
+@media (max-width:600px)
+{
+    .logo img
+{
+    height: 15px;
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 .logo a {
@@ -73,20 +97,25 @@
 
 .hero-text h4 {
     color: #222121;
-    letter-spacing: 6px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
+<<<<<<< HEAD
 
 .hero-text h1 {
     /* font-family: 'Tilt Warp', cursive; */
+=======
+.hero-text h1
+{
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
     font-family: 'Saira Stencil One', cursive;
-    /* font-family: 'Tilt Warp', cursive; */
-
-    /* font-family: 'Kanit', sans-serif; */
     letter-spacing: 10px;
     font-size: 11vw;
     color: #222121;
-    /* text-shadow: 3px 3px 8px rgba(9,1,1,1); */
 }
+<<<<<<< HEAD
 
 /* -webkit-text-stroke: 1px #000;
     background-image: url(https://img.freepik.com/free-vector/blank-purple-patterned-background-vector_53876-63148.jpg?size=626&ext=jpg); */
@@ -123,6 +152,79 @@
         font-size: 11vw;
 
     }
+=======
+@keyframes back
+{
+    100%{
+        background-position: 2000px 0;
+    }
+  
+}
+
+@media (max-width:850px)
+{
+    .hero
+    {
+        background-image:url('../../assets/img/mobile.webp');
+    }
+    .hero-text
+{
+    top: 42%;
+    left: 5%;  
+}
+.hero-text h4
+{
+    letter-spacing: 2px;
+    font-size: 1.3vw;
+    padding-left: 10px;
+}
+    .hero-text h1
+    {
+    letter-spacing: 4px;
+    font-size: 11vw;
+   
+}
+}
+
+@media (max-width:600px)
+{
+    .hero-text h1
+    {
+    font-size: 9vw;
+    }
+    .hero-text h4
+{
+    letter-spacing: 3px;
+    font-size: 2vw;
+}
+}
+@media (max-width:500px)
+{
+    .hero-text h1
+    {
+    font-size: 9vw;
+    }
+    .hero-text h4
+{
+    letter-spacing: 2px;
+    font-size: 2vw;
+}
+}
+@media (max-width:350px)
+{
+    .hero-text
+    {
+        top: 43%;
+    }
+    .hero-text h1
+    {
+    font-size: 9vw;
+    }
+    .hero-text h4
+{
+    letter-spacing: 2px;
+    font-size: 2vw;
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 @media (max-width:600px) {
@@ -153,16 +255,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-image: url('../../assets/img/uuuoo.webp');
+=======
+    background-image:url('../../assets/img/uuuoo.webp');
+    background-attachment: fixed;
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
     background-size: cover;
     margin: 0 0 50px 0;
     background-position: center;
     width: 100%;
     min-height: 70vh;
     /* position: fixed; */
+<<<<<<< HEAD
 }
 
 .book-text {
+=======
+  }
+  .book-text {
+>>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
     background-color: rgba(11, 10, 10, 0.2);
     width: 100%;
     height: 70vh;
@@ -430,12 +542,12 @@ a span:nth-child(4) {
     display: inline-block;
     position: relative;
     z-index: 1;
-    max-width: 500px;
+    max-width: 400px;
     height: 500px;
     margin: 0 20px 20px 20px;
     box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .12);
     overflow: hidden;
-    width: 30.333%;
+    width: 29.333%;
 }
 
 @media (max-width:900px) {
