@@ -27,38 +27,27 @@
     width: 100%;
     height: 100vh;
     background-color: #dadaef;
-<<<<<<< HEAD
     background-image: url('../../assets/img/v12.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-=======
-    background-image:url('../../assets/img/bg.webp');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center; 
-    object-fit: fill;
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 .hero-text {
     color: #fff;
     position: absolute;
     top: 40%;
-<<<<<<< HEAD
     left: 12%;
 }
 
 
 .logo {
     padding: 20px 28px;
-=======
     left: 8%;  
 }
 .logo
 {
 padding: 20px 28px;
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 @media (max-width:500px) {
@@ -75,19 +64,17 @@ padding: 20px 28px;
     width: 100%;
     height: 20px;
 }
-<<<<<<< HEAD
 
 @media (max-width:500px) {
     .logo img {
         height: 15px;
     }
-=======
+}
 @media (max-width:600px)
 {
     .logo img
 {
     height: 15px;
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 .logo a {
@@ -102,20 +89,18 @@ padding: 20px 28px;
     font-size: 17px;
     letter-spacing: 2px;
 }
-<<<<<<< HEAD
-
+}
 .hero-text h1 {
     /* font-family: 'Tilt Warp', cursive; */
-=======
 .hero-text h1
 {
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
     font-family: 'Saira Stencil One', cursive;
     letter-spacing: 10px;
     font-size: 11vw;
     color: #222121;
 }
-<<<<<<< HEAD
+}
+
 
 /* -webkit-text-stroke: 1px #000;
     background-image: url(https://img.freepik.com/free-vector/blank-purple-patterned-background-vector_53876-63148.jpg?size=626&ext=jpg); */
@@ -152,7 +137,6 @@ padding: 20px 28px;
         font-size: 11vw;
 
     }
-=======
 @keyframes back
 {
     100%{
@@ -224,7 +208,6 @@ padding: 20px 28px;
 {
     letter-spacing: 2px;
     font-size: 2vw;
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
 }
 
 @media (max-width:600px) {
@@ -255,26 +238,21 @@ padding: 20px 28px;
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    background-image: url('../../assets/img/uuuoo.webp');
-=======
+
     background-image:url('../../assets/img/uuuoo.webp');
     background-attachment: fixed;
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
+
     background-size: cover;
     margin: 0 0 50px 0;
     background-position: center;
     width: 100%;
     min-height: 70vh;
     /* position: fixed; */
-<<<<<<< HEAD
 }
 
 .book-text {
-=======
   }
   .book-text {
->>>>>>> 3945ad6c0871f0515d6023165291efde199ff51f
     background-color: rgba(11, 10, 10, 0.2);
     width: 100%;
     height: 70vh;
