@@ -808,6 +808,22 @@ a span:nth-child(4) {
     }
 }
 
+/* -------------------------- Why Join Section ----------------------------*/
+.whyjoin-bg {
+    /* background-image: url(whybg.png); */
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    object-fit: cover;
+    opacity: 0.8;
+    color: white;
+    /* height: 100vh;  */
+    width: auto;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
