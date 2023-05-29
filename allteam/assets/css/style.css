@@ -709,12 +709,125 @@ a span:nth-child(4) {
 }
 
 
-/*--------------------------------------------------------------
-# About Section
+/*--------------------------------------------------------------*/
+/* # About Section */
+
+.ourteam {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 720px;
+    margin: 0 auto;
+    color: #fff;
+    margin: 50px 0;
+  }
+  
+  .ourteam1 {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 720px;
+    margin: 0 auto;
+    color: #fff;
+    margin: 50px 0;
+  }
+  
+  .ourteam:after {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+     /* background-color: rgba(0, 0, 0, 0.4); */ 
+    content: "";
+  }
+  .ourteam1:after {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+     /* background-color: rgba(0, 0, 0, 0.4); */ 
+    content: "";
+  }
+  
+  .ourteam-wrapper {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #ourteam-img {
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+    background-position: center;
+    /* background-color: #0d7987;   */
+  }
+  
+  .ourteam-text {
+    z-index: 1;
+    max-width: 40%;
+    text-align: left;
+    padding: 40px 0;
+  } 
+  .ourteam-text1 {
+    z-index: 1;
+    max-width: 35%;
+    text-align: right;
+    padding: 40px 0;
+  } 
+  .ourteam-text h1 {
+    margin:  20px 0 50px;
+    
+    font-size: 55px;
+    line-height: 1.3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ourteam-text p {
+    text-align:justify;
+    font-size: 25px;
+    line-height: 1.3;
+    color: #fff;
+  }
+  .ourteam-text1 p {
+    text-align:justify;
+    font-size: 25px;
+    line-height: 1.3;
+    color: #fff;
+  }
+  .ourteam-para
+  {
+    margin: 20% 0 20px 50px ;
+  }
+  .ourteam-para1
+  {
+    margin: 20% 50px 20px 0 ;
+  }
+.ourteam-para2
+{
+    margin: 0 0 0 50px ;
+}
+.ourteam-para21
+{
+    margin: 0 50px 20px 0 ;
+}
 --------------------------------------------------------------*/
 .about{
     padding-top: 20px;
-    padding-bottom: 70px;
+
 }
 
 .about h2 {
@@ -762,7 +875,7 @@ a span:nth-child(4) {
 .about ul {
     list-style: none;
     padding: 0;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .about ul li {
@@ -807,6 +920,180 @@ a span:nth-child(4) {
         right: 0;
     }
 }
+
+@media (max-width: 600px) {
+    .about h2 {
+        font-size: 27px;
+    }
+    
+.about .our-story h4 {
+    font-size: 15px; 
+}
+.about .our-story h3 {
+    font-size: 25px;
+    
+}
+}
+
+
+/*======================= puzzle=============== */
+.puzzle {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 720px;
+    margin: 0 auto;
+    color: #fff;
+    margin: 50px 0;
+  }
+  
+  .puzzle:after {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    content: "";
+  }
+  
+  .puzzle-wrapper {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #puzzle-img {
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-color: #0d7987;  
+  }
+  
+  .puzzle-text {
+    z-index: 1;
+    max-width: 45%;
+    text-align: left;
+    padding: 45px 0;
+  }
+  
+  .puzzle-text h1 {
+    margin: 0 0 24px;
+    font-family: "Merriweather", serif;
+    font-size: 45px;
+    line-height: 1.3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .puzzle-text p {
+    margin: 0px 0px 40px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width:800px) {
+    
+    .puzzle
+    {
+        align-items: center;
+    }
+    .puzzle-text
+    {
+        max-width: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .puzzle-text h1 {
+      
+      font-size: 20px;
+    }
+  
+    .puzzle-text p {
+      margin: 0px 0px 48px;
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    
+    .puzzle
+    {
+        align-items: end;
+    }
+    .puzzle-text
+    {
+        max-width: 50%;
+        padding-top: 20px;
+    }
+    
+    .puzzle-text h1 {
+
+      font-size: 25px;
+      margin: 0 0 16px;
+      
+    }
+  
+    .puzzle-text p {
+        margin: 0px 0px 20px;
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    
+    .puzzle
+    {
+        align-items: center;
+    }
+    .puzzle-text
+    {
+        max-width: 100%;
+        margin-top: 130%;
+        padding: 10px;
+    }
+    
+   
+    .puzzle-text h1 {
+      margin: 0 0 16px;
+      font-size: 20px;
+    }
+  
+    .puzzle-text p {
+      margin: 0px 0px 20px;
+      font-size: 12px;
+    }
+  }
+  
+
+
+/* .puzzle
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.puzzle img
+{
+    width: 100%;
+    padding-bottom:50px ;
+}
+.puzzle-text
+{
+    z-index: 999;
+    position: relative;
+} */
+
+
 
 /*--------------------------------------------------------------
 # Footer
